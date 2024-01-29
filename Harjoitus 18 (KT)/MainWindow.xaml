@@ -1,0 +1,28 @@
+﻿<Window x:Class="Harjoitus_18__KT_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Harjoitus_18__KT_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="output" HorizontalAlignment="Left" Margin="249,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225" Height="49"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="249,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="294,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="339,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button x:Name="Times" Content="*" HorizontalAlignment="Left" Margin="384,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Times_Click"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="249,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="294,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="339,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button x:Name="Minus" Content="-" HorizontalAlignment="Left" Margin="384,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Minus_Click"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="249,239,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="294,239,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="339,239,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Button_Click"/>
+        <Button x:Name="Plus" Content="+" HorizontalAlignment="Left" Margin="384,239,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Plus_Click"/>
+        <Button x:Name="Equal" Content="=" HorizontalAlignment="Left" Margin="249,264,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Equal_Click"/>
+        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="294,264,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40"/>
+        <Button x:Name="Divide" Content="/" HorizontalAlignment="Left" Margin="339,264,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40" Click="Divide_Click"/>
+        <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="384,264,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.136,-0.163" Width="40"/>
+    </Grid>
+</Window>
